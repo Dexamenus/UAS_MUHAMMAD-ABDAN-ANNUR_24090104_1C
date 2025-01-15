@@ -13,6 +13,8 @@ class buah:
     def information(self):
         return f'Buah: {self.nama} | Warna : {self.warna} | Rasa: {self.rasa}'
     
-mangga = buah('mangga','hijau','manis')
-buah.setRasa('pait')
-print(mangga.information())
+buah1 = buah('p','p','p')
+buah1.setNama('mangga')
+buah1.setWarna('hijau')
+buah1.setRasa('pait')
+print(buah1.information())
